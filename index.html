@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller 1 TypeScript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+            crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" style="background-color:mediumturquoise; padding:10px">
+            <div class="col-1">
+                <img src="https://img.icons8.com/dusk/452/tv.png" class="img-fluid"
+                        style="width:50px; float:right" alt="TV logo">
+            </div>
+            <div class="col-11 my-auto">
+                <h1>TV Series</h1>
+            </div>
+        </div>
+
+        <div class="row" style="padding-top:40px">
+            <div class="col-1"></div>
+            <div class="col-5">
+                <table class="table table-striped">
+                    <caption id="avarage-seasons" style="caption-side:bottom; color:black"></caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Channel</th>
+                            <th scope="col">Seasons</th>
+                        </tr>
+                    </thead>
+                    <tbody id="series" style="cursor:pointer">
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-4" id="serie-info"></div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+    <script type="module" src="./serie.js"></script>
+    <script type="module" src="./data.js"></script>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
