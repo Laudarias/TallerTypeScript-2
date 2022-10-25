@@ -22,7 +22,7 @@ function getAvarageSeasons(series) {
 }
 function renderInfoInCard(serie) {
     serieInfoCard.innerHTML = `<div class="card">
-                                <img class="card-img-top" src="${serie.image}" alt="Serie poster">
+                                <img class="card-img-top" src="${serie.image}" referrerpolicy="no-referrer" alt="${serie.name} poster">
                                 <div class="card-body">
                                     <h5 class="card-title">${serie.name}</h5>
                                     <p class="card-text">${serie.description}</p>
